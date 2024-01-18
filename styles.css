@@ -9,6 +9,13 @@
   box-shadow: 0 4px 16px rgb(0 0 0 / 0.1);
 
   margin: 20px;
+  transition: 0.2s ease-in;
+  border: 1px none #459cff71; 
+}
+
+.card-container:hover{
+  scale: 1.01;
+  border-style: solid;
 }
 
 .card-image {

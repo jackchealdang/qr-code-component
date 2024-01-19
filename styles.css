@@ -9,12 +9,13 @@
   box-shadow: 0 4px 16px rgb(0 0 0 / 0.1);
 
   margin: 20px;
-  transition: 0.2s ease-in;
+  transition: 0.2s ease-in-out;
   border: 1px none #459cff71; 
+  backface-visibility: hidden;
 }
 
 .card-container:hover{
-  scale: 1.01;
+  translate: 0 -10px;
   border-style: solid;
 }
 

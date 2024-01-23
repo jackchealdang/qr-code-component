@@ -37,12 +37,12 @@
   padding: 0 40px 26px;
 }
 
-.card-description h2, p{
+.card-description h1, p{
   text-align: center;
   margin: 12px 0;
 }
 
-.card-description h2 {
+.card-description h1 {
   color: #253048;
 }
 
